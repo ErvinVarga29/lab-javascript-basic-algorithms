@@ -42,10 +42,10 @@ for (let i = 0; i < hacker2.length; i++) {
 
 console.log(newReverseName);
 
-if ( hacker1.charCodeAt(0) > hacker2.charCodeAt(0) ) {
+if ( hacker1.charCodeAt(0) < hacker2.charCodeAt(0) ) {
   console.log("The driver's name goes first.")
 }
-  else if (hacker1.charCodeAt(0) < hacker2.charCodeAt(0)) {
+  else if (hacker1.charCodeAt(0) > hacker2.charCodeAt(0)) {
     console.log("Yo, the navigator goes first definitely.");
   }
     else {
