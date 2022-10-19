@@ -42,6 +42,19 @@ for (let i = 0; i < hacker2.length; i++) {
 
 console.log(newReverseName);
 
+if ( hacker1.charCodeAt(0) > hacker2.charCodeAt(0) ) {
+  console.log("The driver's name goes first.")
+}
+  else if (hacker1.charCodeAt(0) < hacker2.charCodeAt(0)) {
+    console.log("Yo, the navigator goes first definitely.");
+  }
+    else {
+      console.log("What?! You both have the same name?")
+
+    }
+    
+  
+
 // BONUS 1
 let loremString =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus elementum lorem eu commodo. In sit amet feugiat nulla. Duis non rutrum metus. Sed non enim sed turpis feugiat commodo. Nam egestas lobortis odio a tincidunt. Fusce augue tortor, pharetra sit amet odio eu, dapibus volutpat libero. Vestibulum et volutpat nunc. Nulla gravida, risus vitae sollicitudin pellentesque, lacus lorem convallis est, ut bibendum tellus purus vitae leo. Aenean finibus sed sem sit amet placerat. Quisque vel ornare magna. Sed in dui dolor. Quisque sollicitudin bibendum erat, quis pulvinar ipsum ullamcorper in. Maecenas et justo sodales ante imperdiet auctor in vitae elit. Integer quis aliquet diam. Suspendisse ullamcorper est dignissim, laoreet lectus nec, mollis libero. Vestibulum mattis lacinia enim at suscipit. Praesent dolor sem, rhoncus sed turpis ut, tristique pretium velit. In pulvinar arcu a scelerisque rutrum. Aliquam vitae tincidunt purus. Curabitur blandit nibh eu erat pellentesque dignissim sit amet ut justo. In quis augue a metus tempus gravida. Curabitur tincidunt risus et ipsum tincidunt, quis rutrum odio venenatis. Morbi pharetra tempor vestibulum. Etiam tristique mattis interdum. Aenean id orci nibh. Aenean finibus risus nec felis vehicula, venenatis bibendum nulla iaculis. Suspendisse laoreet at orci euismod placerat. Donec sit amet congue nibh. Aliquam facilisis orci et faucibus faucibus. In sit amet ultricies erat. Cras dignissim tempus lorem, ut porta turpis molestie nec. Donec sit amet porta sapien, sit amet pretium quam. Curabitur sed dapibus tortor, in placerat augue. Suspendisse vestibulum vehicula lorem, ullamcorper fringilla leo aliquet ut. Sed tempor, velit quis semper posuere, ante velit vulputate mauris, ac facilisis sem sapien ac nisi. Mauris porttitor iaculis arcu, ultrices dignissim urna suscipit vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin iaculis porttitor enim, vitae sollicitudin mauris efficitur auctor. Nulla enim eros, elementum id purus et, tincidunt finibus nibh. Nulla tincidunt neque nec velit eleifend consectetur. Donec sed ullamcorper nisi.';
