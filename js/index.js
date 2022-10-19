@@ -24,3 +24,21 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
+let newName = ''
+    for (let i = 0; i < hacker1.length; i++) {
+            if (i === hacker1.length -1 ) {
+                newName = newName + hacker1[i].toUpperCase();
+            } else{
+                newName = newName + hacker1[i].toUpperCase() + ' ';
+            }
+}
+console.log(newName)
+
+let newReverseName = ''
+
+    for (let i = 0; i < hacker2.length; i++) {
+        newReverseName = newReverseName +  hacker2[hacker2.length-1-i]
+}
+
+console.log(newReverseName)
+
